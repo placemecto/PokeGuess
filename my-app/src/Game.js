@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import pokemonList from './pokemonList'; // Assuming this is the correct path
 import database from './firebase';
 import { ref, push } from "firebase/database";
+import { useNavigate } from 'react-router-dom';
+
+
+
 
 function levenshtein(a, b) {
     const matrix = [];
@@ -42,7 +46,9 @@ function Game() {
   const [gameOver, setGameOver] = useState(false);
   const [gameStarted, setGameStarted] = useState(false);
   const [userName, setUserName] = useState('');
+  
 
+  const navigate = useNavigate();
 
 
   const handleSubmitScore = () => {
@@ -57,7 +63,7 @@ function Game() {
         .then(() => {
           console.log('Score submitted successfully');
           window.alert('Score submitted successfully'); // Display the success alert
-          window.location.reload();
+          navigate('/leaderboard');
         })
         .catch((error) => {
           console.error('Error submitting score:', error);
