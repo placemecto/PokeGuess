@@ -1,0 +1,207 @@
+/* App.css */
+.App {
+  text-align: center;
+  background-image: url('wallpaper.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #4CAF50; /* Change as per your color scheme */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker shade for hover effect */
+}
+
+/* Additional styling for score display */
+.score {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Styles for the navigation bar */
+nav {
+  background-color: #4CAF50; /* Match the button color */
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left; /* To align items horizontally */
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #45a049; /* Darker shade for hover effect */
+}
+
+/* Clear floats after the columns */
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Leaderboard Styles */
+
+.leaderboard-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(214, 244, 182, 0.8); /* Soft green background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center;
+}
+
+.leaderboard-title {
+  font-size: 2em;
+  color: #333333; /* Darker text for contrast */
+  margin-bottom: 20px;
+}
+
+.leaderboard-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.leaderboard-list li {
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.leaderboard-list li:hover {
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.leaderboard-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.leaderboard-item:hover {
+  transform: translateY(-2px);
+}
+
+.leaderboard-item div {
+  /* Adjust width of each column */
+  width: 33%;
+  text-align: center;
+}
+
+.leaderboard-header {
+  display: flex;
+  background-color: #ddd; /* Light background for the header */
+  padding: 10px 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: bold; /* Make header text bold */
+}
+
+.leaderboard-header div {
+  width: 33%;
+  text-align: center;
+}
+
+/* CSS for the Home component */
+.Home {
+  text-align: center;
+  background: linear-gradient(to bottom, #D9F8BA, #A4E97A);
+  font-family: "Press Start 2P", Arial, sans-serif; /* Use Press Start 2P font */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  line-height: 1.8;
+}
+
+.Home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+
+.Home p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.Home em {
+  font-style: italic;
+}
+
+/* Additional styles for links (if needed) */
+.Home a {
+  color: #FF6C00; /* Pokémon-style link color (adjust as needed) */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.Home a:hover {
+  color: #FFA62B; /* Pokémon-style link color on hover (adjust as needed) */
+}
+
+/* Add this to your CSS */
+.play-button {
+  background-color: #FF6C00; /* Pokémon-style button color (adjust as needed) */
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+  background-color: #FFA62B; /* Pokémon-style button color on hover (adjust as needed) */
+}
+
