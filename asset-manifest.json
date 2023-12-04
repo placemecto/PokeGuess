@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/PokeGuess/static/css/main.1a37399d.css",
-    "main.js": "/PokeGuess/static/js/main.d209779b.js",
+    "main.js": "/PokeGuess/static/js/main.c870bc98.js",
     "static/js/787.d4aba7ab.chunk.js": "/PokeGuess/static/js/787.d4aba7ab.chunk.js",
     "static/media/wallpaper.png": "/PokeGuess/static/media/wallpaper.b8351a84b9575af5f535.png",
     "index.html": "/PokeGuess/index.html",
     "main.1a37399d.css.map": "/PokeGuess/static/css/main.1a37399d.css.map",
-    "main.d209779b.js.map": "/PokeGuess/static/js/main.d209779b.js.map",
+    "main.c870bc98.js.map": "/PokeGuess/static/js/main.c870bc98.js.map",
     "787.d4aba7ab.chunk.js.map": "/PokeGuess/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a37399d.css",
-    "static/js/main.d209779b.js"
+    "static/js/main.c870bc98.js"
   ]
 }
