@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PokeGuess/static/css/main.c27803d6.css",
-    "main.js": "/PokeGuess/static/js/main.7ceaab96.js",
-    "static/js/787.d4aba7ab.chunk.js": "/PokeGuess/static/js/787.d4aba7ab.chunk.js",
-    "static/media/wallpaper.png": "/PokeGuess/static/media/wallpaper.b8351a84b9575af5f535.png",
-    "index.html": "/PokeGuess/index.html",
-    "main.c27803d6.css.map": "/PokeGuess/static/css/main.c27803d6.css.map",
-    "main.7ceaab96.js.map": "/PokeGuess/static/js/main.7ceaab96.js.map",
-    "787.d4aba7ab.chunk.js.map": "/PokeGuess/static/js/787.d4aba7ab.chunk.js.map"
+    "main.css": "/www.dexrangers.com/static/css/main.ff140e5f.css",
+    "main.js": "/www.dexrangers.com/static/js/main.f8aa2876.js",
+    "static/js/787.d4aba7ab.chunk.js": "/www.dexrangers.com/static/js/787.d4aba7ab.chunk.js",
+    "static/media/wallpaper.png": "/www.dexrangers.com/static/media/wallpaper.b8351a84b9575af5f535.png",
+    "index.html": "/www.dexrangers.com/index.html",
+    "main.ff140e5f.css.map": "/www.dexrangers.com/static/css/main.ff140e5f.css.map",
+    "main.f8aa2876.js.map": "/www.dexrangers.com/static/js/main.f8aa2876.js.map",
+    "787.d4aba7ab.chunk.js.map": "/www.dexrangers.com/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c27803d6.css",
-    "static/js/main.7ceaab96.js"
+    "static/css/main.ff140e5f.css",
+    "static/js/main.f8aa2876.js"
   ]
 }
